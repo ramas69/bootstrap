@@ -1,0 +1,32 @@
+/* Ajout du style pour les boutons roses */
+.btn-custom {
+    background-color: #FF69B4;  /* Rose vif */
+    border-color: #FF69B4;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #FF1493;  /* Rose plus foncé au survol */
+    border-color: #FF1493;
+    color: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Ajustement pour la lisibilité du contenu */
+.hero {
+    background: none;  /* Supprime le gradient existant */
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);  /* Fond semi-transparent */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+} 
